@@ -5,7 +5,7 @@ class FlyBehavior(ABC):
     """Fly interfaces."""
     @abstractmethod
     def fly():
-        raise NotImplemented
+        raise NotImplementedError
 
 class FlyWithWing(FlyBehavior):
     def fly():
@@ -20,7 +20,7 @@ class QuackBehavior(ABC):
     """Quack interface."""
     @abstractmethod
     def quack():
-        raise NotImplemented
+        raise NotImplementedError
 
 class Quack(QuackBehavior):
     def quack():
