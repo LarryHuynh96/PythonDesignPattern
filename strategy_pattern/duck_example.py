@@ -1,9 +1,5 @@
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
-from msilib.schema import Class
-from select import select
-from tkinter.messagebox import NO
-
 
 class FlyBehavior(ABC):
     """Fly interfaces."""
